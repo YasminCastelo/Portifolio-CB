@@ -20,8 +20,8 @@ nav ul {
 
 nav a {
      text-decoration: none;
-      color: white;
-      font-weight: bold;   
+     color: white;
+     font-weight: bold;   
 }
 
 .card {
@@ -30,7 +30,7 @@ nav a {
     justify-content: :start;
     align-items: center;
     padding: 20px;
-    border: 1px solid lightred;
+    border: 1px solid lghtred;
     border-radius: 5px;
 
 }
