@@ -20,6 +20,12 @@ body{
 
 }
 
+.image img {
+    width: 100px;
+    height: 100%;
+    border-radius: 50%;
+}
+        
 section {
     color: #000000;
     background-color: #ffffff;
