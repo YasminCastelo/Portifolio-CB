@@ -1,12 +1,27 @@
+
 body{
 
         font-family: Poppins, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #793838;
-        color: #fdfdfd;
+        background-color: #5C1C1C;
+        color: #withe;
         line-height: 1.6;
     
+}
+
+nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+}
+
+nav a {
+     text-decoration: none;
+      color: white;
+      font-weight: bold;   
 }
 
 .card {
@@ -15,17 +30,34 @@ body{
     justify-content: :start;
     align-items: center;
     padding: 20px;
-    border: 1px solid lightgreen;
+    border: 1px solid lightred;
     border-radius: 5px;
 
+}
+.image {
+   width: 150px;
+   height: 100px;
 }
 
 .image img {
     width: 100px;
     height: 100%;
     border-radius: 50%;
+   /* object-fit: cover; */
 }
-        
+
+.information {
+        flex: 1;
+        margin-left: 20px;
+}
+
+.information h3 {
+        margin: 10px 0;
+}
+
+.information p {
+        margin: 10px 0;
+}
 section {
     color: #000000;
     background-color: #ffffff;
