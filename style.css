@@ -9,13 +9,15 @@ body{
     
 }
 
-section{
+
+
+.card {
     color: #000000;
     background-color: #ffffff;
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #200000;
     text-decoration: none;
 } 
 
